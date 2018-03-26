@@ -1,0 +1,58 @@
+MARKET = ETH
+
+ALL_trading_enabled = true
+ALL_enabled_pairs = ALL
+
+ALL_hidden_pairs = BNBETH
+BNBETH_trading_enabled = false
+
+ALL_DCA_enabled = true
+ALL_max_trading_pairs = 3
+
+ALL_max_cost = 0
+ALL_max_cost_percentage = 3
+ALL_min_buy_balance = 0
+ALL_min_buy_volume = 400
+ALL_min_buy_price = 0
+ALL_max_buy_spread = 0.75
+ALL_buy_available_volume_trigger = 105
+
+ALL_buy_strategy = EMAGAIN
+ALL_buy_value = -0.8
+ALL_trailing_buy = 0.15
+
+#ALL_buy_strategy = LOWBB
+#ALL_buy_value = -20
+#ALL_trailing_buy = 0.177
+
+#ALL_buy_strategy = EMASPREAD
+#ALL_buy_value = -0.95
+#ALL_trailing_buy = 0.15
+
+ALL_sell_strategy = GAIN
+ALL_sell_value = 0.8
+ALL_min_profit = 0.8
+ALL_trailing_profit = 0.2
+
+All_stop_loss_trigger = 0
+ALL_stop_loss_timeout = 0
+ALL_panic_sell_enabled = false
+
+ALL_sell_only_mode = false
+
+ALL_ETH_price_drop_trigger = 0
+ALL_ETH_price_drop_recover_trigger = 0
+
+ALL_ETH_price_rise_trigger = 12
+ALL_ETH_price_rise_recover_trigger = 3
+
+ALL_rebuy_timeout = 60
+
+#Does not work on binance
+ALL_consecutive_buy_trigger = 0
+
+#Does not work on binance
+ALL_consecutive_sell_trigger = 0
+
+ALL_pending_order_wait_time = 0
+ALL_combined_cancel_pending_trigger = 0

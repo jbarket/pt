@@ -1,0 +1,26 @@
+enabled = true
+max_cost = 0
+max_buy_times = 5
+max_buy_spread = 1
+rebuy_timeout = 30
+
+buy_available_volume_trigger = 100
+
+buy_strategy = ANDERSON
+buy_style = DOUBLEDOWN
+buy_trigger_1 = -1.5
+buy_trigger_2 = -3.5
+buy_trigger_3 = -5.5
+buy_trigger_4 = -7.5
+buy_trigger_5 = -10
+
+trailing_buy = 0.195
+
+sell_strategy = GAIN
+sell_value = 0.8
+sell_trigger = 0.8
+trailing_profit = 0.25
+
+pending_order_wait_time = 0
+ignore_sell_only_mode = true
+min_buy_balance = 0
